@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -enter a number and show if its positive or negative
+ * main - Enter a number and show if its positive or negative
  * it executes, and prints it
- * Return : always 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int n;
@@ -17,6 +16,6 @@ printf("%d is positive\n", n);
 else if (n < 0)
 printf("%d is negative\n", n);
 else if (n == 0)
-printf("%d is null \n", n);
+printf("%d is zero \n", n);
 return (0);
 }
